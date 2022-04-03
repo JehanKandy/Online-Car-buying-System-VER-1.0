@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lobster&family=Permanent+Marker&family=Teko&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(images/car1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.products {
+    width: 100%;
+    height: 90vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(images/login_car.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.products h3 {
+    color: white;
+    font-family: 'Anton', sans-serif;
+    font-size: 200%;
+}
+
+.banner h3 {
+    color: white;
+    font-family: 'Anton', sans-serif;
+    font-size: 200%;
+}
+
+.his-navbar {
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.products-navbar {
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.products-navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar {
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.products-navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Anton', sans-serif;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Anton', sans-serif;
+}
+
+.products-navbar ul li::after {
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #ffc107;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.navbar ul li::after {
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #ffc107;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.products-navbar ul li:hover::after {
+    width: 100%;
+}
+
+.navbar ul li:hover::after {
+    width: 100%;
+}
+
+.products-content {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+}
+
+.content {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+}
+
+.products-title {
+    font-size: 70px;
+    line-height: 100px;
+    font-weight: bold;
+    height: 100px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lobster', cursive;
+    overflow: hidden;
+}
+
+.title {
+    font-size: 70px;
+    line-height: 100px;
+    font-weight: bold;
+    height: 100px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lobster', cursive;
+    overflow: hidden;
+}
+
+.content p {
+    margin: 20px auto;
+    font-weight: 100%;
+    line-height: 100%;
+    font-family: 'Teko', sans-serif;
+    font-size: 150%;
+}
+
+.header1 {
+    padding: 15px 25px;
+    margin: 20px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    border: 2px solid #ffc107;
+    color: #fff;
+    cursor: pointer;
+    background: linear-gradient(to right, transparent 50%, #ffc107 50%);
+    background-size: 200%;
+    background-position: left;
+    transition: background-position 0.5s;
+}
+
+.header1:hover {
+    background-position: right;
+    color: #000;
+}
+
+.infor_btn {
+    padding: 15px 25px;
+    margin: 20px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    border: 2px solid #ffc107;
+    color: #000;
+    cursor: pointer;
+    background: linear-gradient(to right, transparent 50%, #ffc107 50%);
+    background-size: 200%;
+    background-position: left;
+    transition: background-position 0.5s;
+}
+
+.infor_btn:hover {
+    background-position: right;
+    color: #fff;
+}
+
+.slider {
+    color: #ffc107;
+    margin-left: 12px;
+    box-sizing: border-box;
+    animation: slider 6s linear infinite;
+}
+
+.infor {
+    padding-top: 8%;
+    padding-bottom: 5%;
+    background-color: rgb(253, 253, 253);
+}
+
+.infor-content {
+    text-align: center;
+    align-items: center;
+}
+
+.infor-content h2 {
+    font-family: 'Lobster', cursive;
+    font-size: 200%;
+}
+
+hr {
+    border-radius: 50%;
+    color: #ffc107;
+}
+
+.thd {
+    font-family: 'Teko', sans-serif;
+    font-size: 170%;
+}
+
+.tdd {
+    font-family: 'Teko', sans-serif;
+    font-size: 170%;
+}
+
+img {
+    border: none;
+    border-radius: 5%;
+}
+
+.contact {
+    padding-top: 8%;
+    padding-bottom: 5%;
+    background-color: #ffc107;
+}
+
+.contact-content {
+    text-align: center;
+    align-items: center;
+}
+
+.contact p a {
+    text-decoration: none;
+}
+
+.footer {
+    width: 100%;
+    height: 50vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(images/Audi_rs7.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.footer-content {
+    text-align: center;
+    align-items: center;
+}
+
+.footer th {
+    color: #ffc107;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.footer td p {
+    color: #ffc107;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.footer td a {
+    color: #ffc107;
+    text-decoration: none;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.footer font {
+    font-family: 'Permanent Marker', cursive;
+}
+
+.footer-hr {
+    border-radius: 0;
+}
+
+.footer-copy {
+    color: #ffc107;
+    text-align: left;
+}
+
+@keyframes slider {
+    0% {
+        margin-top: -400px;
+    }
+    5% {
+        margin-top: -200px;
+    }
+    30% {
+        margin-top: -200px;
+    }
+    35% {
+        margin-top: 0px;
+    }
+    65% {
+        margin-top: 0px;
+    }
+    70% {
+        margin-top: 200px;
+    }
+    100% {
+        margin-top: 200px;
+    }
+}

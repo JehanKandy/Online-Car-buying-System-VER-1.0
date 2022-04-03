@@ -1,0 +1,244 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Lobster&family=Permanent+Marker&family=Teko&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.reg-banner {
+    width: 100%;
+    height: 80vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(images/reg_car.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.log-banner {
+    width: 100%;
+    height: 80vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(images/log_car1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.log-navbar h3 {
+    color: white;
+    font-family: "Anton", sans-serif;
+    font-size: 200%;
+}
+
+.reg-navbar h3 {
+    color: white;
+    font-family: "Anton", sans-serif;
+    font-size: 200%;
+}
+
+.log-navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.reg-navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.log-navbar h3 {
+    color: white;
+    font-family: "Anton", sans-serif;
+    font-size: 200%;
+}
+
+.reg-navbar h3 {
+    color: white;
+    font-family: "Anton", sans-serif;
+    font-size: 200%;
+}
+
+.log-navbar {
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.reg-navbar {
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.log-navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: "Anton", sans-serif;
+}
+
+.reg-navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: "Anton", sans-serif;
+}
+
+.reg-navbar ul li::after {
+    content: "";
+    height: 3px;
+    width: 0;
+    background: #ffc107;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.reg-navbar ul li:hover::after {
+    width: 100%;
+}
+
+.content {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+}
+
+.title {
+    font-size: 70px;
+    line-height: 100px;
+    font-weight: bold;
+    height: 100px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Lobster", cursive;
+    overflow: hidden;
+}
+
+.login {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #f1f1f1;
+}
+
+form {
+    width: 65%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(images/reg_car.jpg);
+}
+
+.submit {
+    background-color: #ffc107;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    width: 150%;
+}
+
+.login-submit {
+    background-color: #ffc107;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    width: 90%;
+}
+
+.submit:hover {
+    background-color: #b89221;
+}
+
+.reset {
+    background-color: #9e9e9e;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    width: 150%;
+}
+
+.reset:hover {
+    background-color: #777777;
+}
+
+form p {
+    font-size: 100%;
+    color: #f1f1f1;
+}
+
+form p a {
+    color: #ffc107;
+    text-decoration: none;
+}
+
+form input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    font-family: "Anton", sans-serif;
+}
+
+.footer {
+    width: 100%;
+    height: 50vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(images/footer1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.footer-content {
+    text-align: center;
+    align-items: center;
+}
+
+.footer th {
+    color: #ffc107;
+    font-family: "Permanent Marker", cursive;
+}
+
+.footer td p {
+    color: #ffc107;
+    font-family: "Permanent Marker", cursive;
+}
+
+.footer td a {
+    color: #ffc107;
+    text-decoration: none;
+    font-family: "Permanent Marker", cursive;
+}
+
+.footer font {
+    font-family: "Permanent Marker", cursive;
+}
+
+.footer-hr {
+    border-radius: 0;
+}
+
+.footer-copy {
+    color: #ffc107;
+    text-align: left;
+}
